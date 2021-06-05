@@ -1,0 +1,16 @@
+
+# ignore bin folder
+bin
+
+# ignore routes folder
+routes
+
+# ignore images
+public/images
+
+# ignore javascript files
+public/javascripts
+
+node_modules
+
+package-lock.json
