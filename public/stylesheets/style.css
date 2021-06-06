@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'DejaVu Sans', sans-serif;
   background-color: black;
   color: seashell;
   font-size: 22px;
@@ -25,6 +25,7 @@ header {
   justify-content: space-between;
   width: 100%;
   background-color: black;
+  z-index: 1;
 }
 
 #logo {
@@ -68,6 +69,9 @@ main {
   background-image: url("../images/img-mission-background.webp");
   height: 700px;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #title-message {
@@ -100,10 +104,12 @@ main {
 
 #locations {
   background-image: url("../images/img-locations-background.webp");
-  height: 500px;
+  height: 700px;
 }
 
 #locations h2 {
+  width: 100%;
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 15px;
 }
@@ -111,8 +117,6 @@ main {
 #location-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 300px;
 }
 
 .location-box {
@@ -120,9 +124,14 @@ main {
   opacity: 1;
   width: 300px;
   margin: 0 20px;
+  padding: 0 10px;
   height: 300px;
   display: flex;
   flex-direction: column;
+}
+
+.location-box p {
+  margin: 0.5em 0;
 }
 
 #contact {
