@@ -124,3 +124,13 @@ main {
   flex-direction: column;
 }
 
+#contact {
+  height: 200px;
+  margin: 0;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
